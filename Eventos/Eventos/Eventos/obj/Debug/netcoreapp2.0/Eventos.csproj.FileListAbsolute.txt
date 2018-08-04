@@ -1,0 +1,12 @@
+C:\Users\Drawde\Desktop\Eventos\Eventos\Eventos\bin\Debug\netcoreapp2.0\Eventos.deps.json
+C:\Users\Drawde\Desktop\Eventos\Eventos\Eventos\bin\Debug\netcoreapp2.0\Eventos.runtimeconfig.json
+C:\Users\Drawde\Desktop\Eventos\Eventos\Eventos\bin\Debug\netcoreapp2.0\Eventos.runtimeconfig.dev.json
+C:\Users\Drawde\Desktop\Eventos\Eventos\Eventos\bin\Debug\netcoreapp2.0\Eventos.dll
+C:\Users\Drawde\Desktop\Eventos\Eventos\Eventos\bin\Debug\netcoreapp2.0\Eventos.pdb
+C:\Users\Drawde\Desktop\Eventos\Eventos\Eventos\obj\Debug\netcoreapp2.0\Eventos.csproj.CoreCompileInputs.cache
+C:\Users\Drawde\Desktop\Eventos\Eventos\Eventos\obj\Debug\netcoreapp2.0\Eventos.AssemblyInfoInputs.cache
+C:\Users\Drawde\Desktop\Eventos\Eventos\Eventos\obj\Debug\netcoreapp2.0\Eventos.AssemblyInfo.cs
+C:\Users\Drawde\Desktop\Eventos\Eventos\Eventos\obj\Debug\netcoreapp2.0\Eventos.dll
+C:\Users\Drawde\Desktop\Eventos\Eventos\Eventos\obj\Debug\netcoreapp2.0\Eventos.pdb
+C:\Users\Drawde\Desktop\Eventos\Eventos\Eventos\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Drawde\Desktop\Eventos\Eventos\Eventos\obj\Debug\netcoreapp2.0\Eventos.csprojAssemblyReference.cache

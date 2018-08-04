@@ -1,0 +1,75 @@
+﻿@model Eventos.Models.EventoData
+@inject UserManager<ApplicationUser> UserManager
+@inject SignInManager<ApplicationUser> SignInManager
+@using Microsoft.AspNetCore.Identity;
+@using Microsoft.IdentityModel;
+@{
+    ViewData["Title"] = "Details";
+}
+@{
+    var nuevo = Model.Cupo - 1;
+
+    var UID = User.Identity.Name;
+
+}
+<h2>Details</h2>
+
+<div>
+    <h4>EventoData</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cupo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cupo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Lugar)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Lugar)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Fecha)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Detalle)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Detalle)
+        </dd>
+        
+    </dl>
+</div>
+<form asp-action="Edit2">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="ID" />
+    <input type="hidden" asp-for="Nombre" />
+    <input type="hidden" asp-for="Cupo" class="form-control" value="@nuevo" />
+    <span asp-validation-for="Cupo" class="text-danger"></span>
+    <input type="hidden" asp-for="Lugar" />
+    <input type="hidden" asp-for="Fecha" />
+    <input type="hidden" asp-for="Detalle" />
+    <input type="hidden" asp-for="UserName" value="@UID" />
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-default" />
+    </div>
+
+</form>
+<div>
+
+    <a asp-action="Index">Regresar a Lista de Eventos</a>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
